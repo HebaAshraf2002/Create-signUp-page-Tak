@@ -39,7 +39,6 @@ class _SignupState extends State<Signup> {
               key: _formKey,
               child: ListView(
                   shrinkWrap: true,
-                  //physics: NeverScrollableScrollPhysics(),
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -200,7 +199,7 @@ class _SignupState extends State<Signup> {
                   context,
                   MaterialPageRoute(
                       builder: (context) => const MyHomePage(
-                            title: 'MyHomePage',
+                            title: 'Shopping App',
                           )),
                 );
               },
